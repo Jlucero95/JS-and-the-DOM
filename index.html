@@ -21,13 +21,53 @@
         <div class="navbar-nav">
           <ul class="ul-defaults-none main-menu">
             <li class="nav-item">Home</li>
-            <li class="nav-item">About me</li>
-            <li class="nav-item">Contact</li>
+            <li class="nav-item" data-open="about">About me</li>
+            <li class="nav-item" data-open="contact">Contact</li>
           </ul>
         </div>
       </nav>
     </header>
   </main>
+
+  <!-- Modals -->
+  <!-- About Page Modal -->
+  <div id="about" class="full-site-modal page-block" data-animation="zoomInOut">
+    <header class="modal-header">
+      <h3>ABOUT PAGE</h3>
+      <i data-close="" class="fas fa-times"></i>
+    </header>
+    <div class="modal-body">
+      <div>
+        <img src="./assets/images/img4.jpg" alt="head shot" class="img-wrapper">
+      </div>
+        <h2>Jeremy Lucero</h2>
+        <p>text 1</p>
+        <p>text 2</p>
+      <div>
+        <div>Email me:</div>
+        <a href="mailto:lucero.jeremy07@gmail.com">lucero.jeremy07@gmail.com</a>
+      </div>
+    </div>
+  </div>
+  <!-- Contact Page Modal -->
+  <div id="contact" class="full-site-modal page-block" data-animation="zoomInOut">
+    <header class="modal-header">
+      <h3>CONTACT PAGE</h3>
+      <i data-close="" class="fas fa-times"></i>
+    </header>
+    <div class="modal-body">
+      <div>
+        <img src="./assets/images/img4.jpg" alt="head shot" class="img-wrapper">
+      </div>
+        <h2>Jeremy Lucero</h2>
+        <p>text 1</p>
+        <p>text 2</p>
+      <div>
+        <div>Email me:</div>
+        <a href="mailto:lucero.jeremy07@gmail.com">lucero.jeremy07@gmail.com</a>
+      </div>
+    </div>
+  </div>
 
   <script src="./js/main.js"></script>
 </body>
