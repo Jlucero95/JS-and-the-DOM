@@ -22,6 +22,35 @@
   cursor: pointer;
   text-transform: lowercase;
 }
+/* Hero Section */
+.hero-content {
+  text-align: center;
+  padding: 5.5rem 0;
+}
+.code-icon {
+  background-color: #da5252;
+  padding: 1.25rem 1.5rem;
+  border-radius: 50rem;
+  display: inline-block;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: var(--color-text);
+}
+.code-icon .fa-code {
+  font-size: 2rem;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
 .full-site-modal {
   position: fixed;
   top: 0;
@@ -30,8 +59,8 @@
   right: 0;
   padding: 1rem;
   transition: all 0.35s ease-in;
-  /* visibility: hidden;
-  opacity: 0; */
+  visibility: hidden;
+  opacity: 0;
 }
 .modal-header {
   display: flex;
@@ -46,7 +75,7 @@
   transition: scale(1.1);
   cursor: pointer;
 }
-.full-site-modal .is-visible {
+.full-site-modal.is-visible {
   visibility: visible;
   opacity: 1;
 }
@@ -58,5 +87,5 @@
   transform: scale(0.2);
 }
 [data-animation="zoomInOut"].full-site-modal.is-visible {
-  transform: none
+  transform: none;
 }
