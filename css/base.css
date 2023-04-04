@@ -92,10 +92,12 @@ button:not(disabled):not(.disabled) {
   letter-spacing: -2.5px;
   line-height: 1.05;
 }
+
 .header-medium {
   font-size: 3rem;
   letter-spacing: -2px;
 }
+
 .sub-header{
   font-size: 1.3125rem;
   line-height: 1.5;
