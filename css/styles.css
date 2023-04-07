@@ -317,10 +317,10 @@
   z-index: 10;
 }
 
-.review-carousel .nxt { transform: translateX(-75%);}
-.review-carousel .prev { transform: translateX(75%);}
+.review-carousel .next { transform: translateX(75%);}
+.review-carousel .prev { transform: translateX(-75%);}
 
-.review-carousel .nxt,
+.review-carousel .next,
 .review-carousel .prev {
   opacity: 0.25;
 }
